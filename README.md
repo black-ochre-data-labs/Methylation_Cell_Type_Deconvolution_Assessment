@@ -31,12 +31,17 @@ The benchmarking dataset draws on public whole genome sequenced data from the Lo
 - The coordinates of UXM Deconv's top 250 marker sites remade with an average of the methylation data from the 3 Loyfer participants (ID49, ID51 & ID54). The observed proportions from this assessment are in the data table column: "Obs_Prop_UXMDeconv_CustomU250_ID49ID51ID54".
 
 ## Details of merged_per_replicate_true_v_obs_long.csv 
-Mixes_from_column: this is the participant ID that the mock blood sample mixes were made from
-Mix: 146 mix combinations were tested. 
-Replicate: each mix was made 3 times for each Loyfer participant
-Cell_type: The white blood cell types assessed in each algorithm. Note: each assessed algorithm/reference matrix combination assessed T-cells as either 1.) a combined "T" group, or 2.) as seperate groups with 'CD4+" and "CD8+" categories. For the this cell type in the "True_proportions" column, The "T" group is a sum of the proportions of "CD4+" and "CD8+" cell types. 
-True_Proportions: The ratios of each of the blood cell types that went into the mock blood samples. 
-"Obs_Prop_" columns: the remaining columns on the right hand side of the dataset are the Observed Proportions from each of the algorithm/reference combinations. The naming conventions for each column name in this set are: "Obs_Prop_[Algorithm used: either EpiDISH or UXM_Deconv]_[Origin of reference matrix coordinates]_[ID numbers used for generation of reference data when using 3 Loyfer participants. Note, the internal matrices won't have these numbers]. Please see the reference matrices tested section above for details of each test. 
+- Mixes_from_column: this is the participant ID that the mock blood sample mixes were made from
+
+- Mix: 146 mix combinations were tested. 
+
+- Replicate: each mix was made 3 times for each Loyfer participant
+
+- Cell_type: The white blood cell types assessed in each algorithm. Note: each assessed algorithm/reference matrix combination assessed T-cells as either 1.) a combined "T" group, or 2.) as seperate groups with 'CD4+" and "CD8+" categories. For the this cell type in the "True_proportions" column, The "T" group is a sum of the proportions of "CD4+" and "CD8+" cell types. 
+
+- True_Proportions: The ratios of each of the blood cell types that went into the mock blood samples. 
+
+- "Obs_Prop_" columns: the remaining columns on the right hand side of the dataset are the Observed Proportions from each of the algorithm/reference combinations. The naming conventions for each column name in this set are: "Obs_Prop_[Algorithm used: either EpiDISH or UXM_Deconv]_[Origin of reference matrix coordinates]_[ID numbers used for generation of reference data when using 3 Loyfer participants. Note, the internal matrices won't have these numbers]. Please see the reference matrices tested section above for details of each test. 
 
 
 
